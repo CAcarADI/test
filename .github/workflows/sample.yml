@@ -27,7 +27,7 @@ jobs:
             --header 'Content-Type: application/json' \
             --data '{
               "fields": {
-                "project": { "key": "YOUR_PROJECT_KEY" },
+                "project": { "key": "ADGTAD" },
                 "summary": "${{ github.event.issue.title }}",
                 "description": "${{ github.event.issue.body }}",
                 "issuetype": { "name": "Task" },
