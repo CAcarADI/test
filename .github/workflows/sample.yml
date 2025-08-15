@@ -30,8 +30,7 @@ jobs:
                 "project": { "key": "ADGTAD" },
                 "summary": "${{ github.event.issue.title }}",
                 "description": "${{ github.event.issue.body }}",
-                "issuetype": { "name": "Task" },
-                "epickey": "ADGTAD-706"
+                "issuetype": { "name": "Task" }
               }
             }'
         env:
